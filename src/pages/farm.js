@@ -112,7 +112,7 @@ function Farm() {
                                                     <div className='flex flex-row items-center w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg ml-3'>0.00 BLZE</div>
-                                                        <input type="text" className='w-30 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
+                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
                                                     </div>
                                                     <Button variant="contained" disabled sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
                                                         <div className='text-[#ABC4FF]'>Enter Deposit Amount</div>
@@ -125,7 +125,7 @@ function Farm() {
                                                     <div className='flex flex-row items-center w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg ml-3'>0.00 BLZE</div>
-                                                        <input type="text" className='w-30 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
+                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
                                                     </div>
                                                     <Button variant="contained" disabled sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
                                                         <div className='text-[#ABC4FF]'>Enter Withdraw Amount</div>
