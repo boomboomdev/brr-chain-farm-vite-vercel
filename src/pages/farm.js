@@ -96,7 +96,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -106,7 +106,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -119,7 +119,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -171,7 +171,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -181,7 +181,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -194,7 +194,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -246,7 +246,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -256,7 +256,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -269,7 +269,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -321,7 +321,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -331,7 +331,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -344,7 +344,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -396,7 +396,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -406,7 +406,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -419,7 +419,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -471,7 +471,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -481,7 +481,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -494,7 +494,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -546,7 +546,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -556,7 +556,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -569,7 +569,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -621,7 +621,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -631,7 +631,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -644,7 +644,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -696,7 +696,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -706,7 +706,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -719,7 +719,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -771,7 +771,7 @@ function Farm() {
                                 <div className='text-[#ABC4FF] font-medium ml-7 text-2xl'>Deposit BLZE-bSOL LP token to start earning your liquidity mining rewards!</div>
                                 <div className='grid gap-6 mb-8 lg:grid-cols-2 mt-20'>
                                     <div>
-                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px" }}>
+                                        <Box sx={{ width: '100%', borderColor: "#ABC4FF", borderWidth: "1px", padding: "20px", borderRadius: "12px" }}>
                                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                                                 <Tab label="Stake" {...a11yProps(0)} sx={{color:"#ABC4FF"}} />
@@ -781,7 +781,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={0}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter stake amount:</div>
                                                 <div className='mt-5 w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full border border-solid border-[#ABC4FF] py-8 px-3'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
@@ -794,7 +794,7 @@ function Farm() {
                                             <CustomTabPanel value={value} index={1}>
                                                 <div className='text-[#ABC4FF] font-normal text-xl'>Enter amount to unstake::</div>
                                                 <div className='mt-5 border-[#ABC4FF] w-full py-3'>
-                                                    <div className='flex flex-row items-center space-x-3 w-full'>
+                                                    <div className='flex flex-row items-center space-x-3 w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                                         {/* <input type="number" className='w-20 bg-[rgba(20,16,65)] ml-auto'></input> */}
