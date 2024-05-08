@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -54,6 +55,21 @@ function Farm() {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
+    const [inputValue, setInputValue] = useState('');
+
+    const handleInputChange = (event) => {
+        setInputValue(event.target.value);
+    };
+
+    const [inputUnStakeValue, setInputUnStakeValue] = useState('');
+
+    const handleInputUnStakeChange = (event) => {
+        setInputUnStakeValue(event.target.value);
+    };
+    
+
+    const isInputValid = inputValue.trim() !== '';
+    const isInputUnStakeValid = inputUnStakeValue.trim() !== '';
 
     const numberOfAccordions = 10;
 
@@ -112,9 +128,9 @@ function Farm() {
                                                     <div className='flex flex-row items-center w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg ml-3'>0.00 BLZE</div>
-                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
+                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto' onChange={handleInputChange} ></input>
                                                     </div>
-                                                    <Button variant="contained" disabled sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
+                                                    <Button variant="contained" disabled={!isInputValid} sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
                                                         <div className='text-[#ABC4FF]'>Enter Deposit Amount</div>
                                                     </Button>
                                                 </div>
@@ -125,9 +141,9 @@ function Farm() {
                                                     <div className='flex flex-row items-center w-full border rounded-xl border-solid border-[#ABC4FF] py-8 px-3'>
                                                         <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                                         <div className='text-[#ABC4FF] font-normal text-lg ml-3'>0.00 BLZE</div>
-                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto flex-1'></input>
+                                                        <input type="text" className='w-32 bg-[rgba(20,16,65)] text-[#ABC4FF] ml-auto' onChange={handleInputUnStakeChange}></input>
                                                     </div>
-                                                    <Button variant="contained" disabled sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
+                                                    <Button variant="contained" disabled={!isInputUnStakeValid} sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
                                                         <div className='text-[#ABC4FF]'>Enter Withdraw Amount</div>
                                                     </Button>
                                                 </div>
@@ -140,7 +156,7 @@ function Farm() {
                                             <img src={BlzeImg} alt='BlzeImg' className='h-8 w-8'></img>
                                             <div className='text-[#ABC4FF] font-normal text-lg'>0.00 BLZE</div>
                                         </div>
-                                        <Button variant="contained" disabled sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
+                                        <Button variant="contained" disabled={!isInputValid} sx={{ width: "100%", marginTop:"40px", paddingY:"20px"}}>
                                             <div className='text-[#ABC4FF]'>Nothing to Claim</div>
                                         </Button>
                                     </div>
