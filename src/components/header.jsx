@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import LogoImg from '../assets/image/logo-with-text.png'
+import { WalletButton,BaseWalletButton } from '../solana/solana-provider';
+import { useRef } from 'react';
 
 const Header = () => {
   // State to manage the navbar's visibility
@@ -36,9 +38,12 @@ const Header = () => {
           </li>
         ))}
       </ul>
-      <button className='border border-[#58f3cd] px-4 py-2 tramso transition duration-150 cursor-pointer font-medium rounded-xl justify-center items-center ml-auto hover:border-2'>
-        <div className='flex items-center gap-3 my-2 text-[#ace3e5]'>Connect Wallet</div>
-      </button>
+      <div className='flex-grow' ></div>
+      <WalletButton >
+        {/* <button   className='border border-[#58f3cd] px-4 py-2 tramso transition duration-150 cursor-pointer font-medium rounded-xl justify-center items-center ml-auto hover:border-2'>
+          <div className='flex items-center gap-3 my-2 text-[#ace3e5]'>Connect Wallet</div>
+        </button> */}
+      </WalletButton>
       {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className='block md:hidden ml-auto'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
